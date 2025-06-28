@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonte-principal:font-family: "Roboto", sans-serif;
+    --fundo-dia:rgb(249, 255, 184);
+    --fundo-diaD:rgb(236, 251, 72);
+    --fundo-tarde:rgb(252, 184, 129);
+    --fundo-tardeD:rgb(250, 134, 39);
+    --fundo-noite:rgb(130, 138, 255);
+    --fundo-noiteD:rgb(79, 90, 251);
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -5,7 +17,7 @@
 }
 
 body{
-    background-color: bisque;
+    background:linear-gradient(var(--fundo-tarde),var(--fundo-tardeD));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,8 +27,8 @@ body{
 .Core-Box{
     width:25rem ;
     height: 25rem;
-    border: 1px solid black;
     border-radius:5%;
     background-color: aliceblue;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
 }
