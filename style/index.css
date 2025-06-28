@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 
 :root{
-    --fonte-principal:font-family: "Roboto", sans-serif;
     --fundo-dia:rgb(249, 255, 184);
     --fundo-diaD:rgb(236, 251, 72);
     --fundo-tarde:rgb(252, 184, 129);
@@ -13,7 +12,6 @@
 *{
     margin: 0;
     box-sizing: border-box;
-  
 }
 
 body{
@@ -24,11 +22,32 @@ body{
     height: 99vh;
 }
 
+#Titulo{
+    font-family: "Bungee Inline", sans-serif;
+    font-family:"Bungee Inline", sans-serif;
+    color:rgb(235, 254, 226);
+}
+
 .Core-Box{
-    width:25rem ;
+    width:25rem;
     height: 25rem;
     border-radius:5%;
     background-color: aliceblue;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
+}
+
+.Sub-Titulo{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 100;
+}
+
+.Assinatura{
+    text-decoration: none;
+    font-style: italic;
+    color: aliceblue;
 }
